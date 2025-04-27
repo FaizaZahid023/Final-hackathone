@@ -10,7 +10,7 @@ import {
   Offcanvas,
   Button,
 } from "react-bootstrap";
-import images from "../assets/images/images.jpg";
+
 
 const Navigation = () => {
   const { isAuthenticated } = useSelector((state) => state.auth);
@@ -20,6 +20,7 @@ const Navigation = () => {
       <Container fluid>
         {/* Logo */}
         <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
+        
           <span className="fw-bold text-primary fs-4">TaskManager</span>
         </Navbar.Brand>
 
